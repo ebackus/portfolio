@@ -268,7 +268,7 @@ a#about{
 footer{
   background-color:#676767;
   color:#fff;
-  height:400px;
+  min-height:400px;
   padding:50px 0;
 }
 
@@ -344,6 +344,10 @@ footer a:hover img{
 
   .scene{
     width:100%;
+  }
+
+  .resume-row iframe{
+    height:100px;
   }
 
 
