@@ -343,11 +343,20 @@ footer a:hover img{
   }
 
   .scene{
-    width:100%;
+    width:100%!important;
   }
 
   .resume-row iframe{
     height:100px;
+  }
+
+  nav{
+    align-items: center;
+  }
+
+  nav ul{
+    margin-top: 15px;
+    margin-bottom: 6px;
   }
 
 

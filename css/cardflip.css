@@ -1,6 +1,6 @@
 .scene {
   width: 200px;
-  height: 260px;
+  min-height: 260px;
   perspective: 600px;
   cursor:pointer;
   margin-bottom:50px;
