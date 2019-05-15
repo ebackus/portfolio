@@ -102,6 +102,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
+
+/*----------------Desktop Styles-----------------------*/
+
 html{
   scroll-behavior: smooth;
 }
@@ -254,7 +259,7 @@ a#about{
 }
 
 .resume-row iframe{
-  margin-left:18%
+  margin-left:10%
 
 }
 
@@ -305,6 +310,43 @@ footer img{
 footer a:hover img{
   margin-top:15px;
   margin-bottom:30px;
+}
+
+/*-------------Mobile Styles---------------*/
+
+@media (max-width:767px){
+
+  nav li{
+    display:block;
+  }
+
+  .intro {
+      padding: 50vh 0 20vh;
+  }
+
+  .intro p{
+    font-size: 22px;
+  }
+
+  .intro a{
+    font-size: 22px;
+    padding: 7px 0px;
+    width: 60%;
+  }
+
+  .about-row h2{
+    margin-top:20px;
+  }
+
+  .about-row p{
+    width:100%;
+  }
+
+  .scene{
+    width:100%;
+  }
+
+
 }
 
 
